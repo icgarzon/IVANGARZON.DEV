@@ -7,33 +7,26 @@ import Headline from "../../components/common/Headline";
 
 const posts = [
     {
-        title: "What has happened to all of the Design ideas?",
+        title: "How to Deploy ReactJS App to AWS S3",
         image: "/assets/images/blog/1-1.jpg",
         date: "May 15th, 2019",
         link: "/single-post",
         icon: "ti-light-bulb",
     },
     {
-        title: "The Best Sale Marketer Of The Next Year",
+        title: "Lambda Integration with SES and SNS",
         image: "/assets/images/blog/1-2.jpg",
         date: "May 18th, 2019",
         link: "/single-post",
         icon: "ti-mobile",
     },
     {
-        title: "What gets in the way of greate Stategy",
+        title: "Redirect Naked Domain (Non-www) on Route53",
         image: "/assets/images/blog/1-3.jpg",
         date: "May 21h, 2019",
         link: "/single-post",
         icon: "ti-paint-bucket",
-    },
-    {
-        title: "How to create great logo for your Business",
-        image: "/assets/images/blog/1-4.jpg",
-        date: "May 21th, 2019",
-        link: "/single-post",
-        icon: "ti-light-bulb",
-    },
+    }
 ];
 
 function Blog() {
@@ -78,7 +71,7 @@ function Blog() {
         <section className="section section-blog section-blog-1">
             <div className="display-spacing">
                 <Container className="container">
-                    <Headline label="Blog" title="Let's See My Work" divider_1={true} position="center" />
+                    <Headline label="Blog" title="Let's Learn and Share" divider_1={true} position="center" />
                     <Slider className="el-slider el-slider-plr--15" {...sliderSettings}>
                         {posts.map((item, index) => (
                             <div key={index} className="post-item">

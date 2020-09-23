@@ -97,4 +97,21 @@
             background-color: $base-1;
         }
     }
+
+    .resume-row.education{
+        .resume-head {
+            padding-top: 20px;
+        }
+    }
+    
+}
+
+
+@media (max-width: 500px) and (orientation: portrait) {  
+    .resume-row.experience{
+        margin-top: 100px;
+    }
+    .resume-body{
+        display:none;
+    }
 }

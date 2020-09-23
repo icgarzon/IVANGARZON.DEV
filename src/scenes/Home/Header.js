@@ -18,7 +18,7 @@ const links = [
     {
         title: "Service",
         path: "service",
-    },
+    }/*,
     {
         title: "Portfolio",
         path: "portfolio",
@@ -26,15 +26,7 @@ const links = [
     {
         title: "Blog",
         path: "blog",
-    },
-    {
-        title: "Testimonial",
-        path: "testimonial",
-    },
-    {
-        title: "Contact",
-        path: "contact",
-    },
+    }*/
 ];
 
 function Header() {
@@ -51,7 +43,7 @@ function Header() {
         <>
             <header className="app-header app-header-1">
                 <div className="header-logo">
-                    <Link to={`url`.replace(/([^:])(\/\/+)/g, "$1/")}>ICGC</Link>
+                    <Link to={``.replace(/([^:])(\/\/+)/g, "$1/")}>ICGC</Link>
                 </div>
                 <button className="button button-menu" onClick={(e) => handleClick(e)}>
                     <span></span>

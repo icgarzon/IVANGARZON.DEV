@@ -36,20 +36,20 @@ function Intro() {
                         <h1>
                             I'm a{" "}
                             <TextLoop>
-                                <span>Web Developer</span>
+                                <span>Software Developer</span>
                                 <span>JS Evangelizer</span>
                                 <span>ReactJS Student</span>
                             </TextLoop>
                             <br />
                             <div className="mycity">Bogotá - Colombia</div>
                         </h1>
-                        <button className="button button-lg button-primary">
+                        {/*<button className="button button-lg button-primary">
                             <span className="wave"></span>
                             <span className="text">My Portfolio</span>
                         </button>
                         <button className="button button-lg">
                             <span className="text">Read More</span>
-                        </button>
+                        </button>*/}
                     </div>
                 </Container>
             </div>

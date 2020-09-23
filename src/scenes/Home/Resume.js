@@ -23,7 +23,8 @@ const skills = [
     {
         title: "Electron",
         percent: 60,
-    },{
+    },
+    {
         title: "ReactJS",
         percent: 40,
     },
@@ -68,54 +69,110 @@ const education = [
     {
         title: "Jorge Tadeo University",
         subtitle: "Media Production | Bogotá",
-        description: "",
+        description: "-",
         date: "(2008-2010)",
         icon: "ti-crown",
     },
     {
         title: "Javeriana University",
         subtitle: "3D Model and Comubustion | Bogotá",
-        description: "Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo.",
+        description: "",
         date: "(2016-2018)",
         icon: "ti-cup",
     },
     {
         title: "Los Libertadores University",
         subtitle: "Graphic Design | Bogotá",
-        description: "Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo.",
+        description: "",
         date: "(2016-2018)",
         icon: "ti-ruler-alt-2",
     },
     {
         title: "Platzi",
-        subtitle: "PHP, iOnic, AWS, MYSQL, TypeScript | Virtual",
-        description: "Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo.",
-        date: "(2018-Actually)",
+        subtitle: "PHP Advanced",
+        description: "",
+        date: "(Auto-Self from 2008 - Certified on 2019)",
+        icon: "ti-pin2",
+    },
+    {
+        title: "Platzi",
+        subtitle: "Computer Security",
+        description: "",
+        date: "(2020)",
+        icon: "ti-magnet",
+    },
+    {
+        title: "Platzi",
+        subtitle: "iOnic 4",
+        description: "",
+        date: "(2018)",
+        icon: "ti-mobile",
+    },
+    {
+        title: "Platzi",
+        subtitle: "AWS Cloud Fundamentals Course",
+        description: "",
+        date: "(2017)",
+        icon: "ti-cloud",
+    },
+    {
+        title: "Platzi",
+        subtitle: "MYSQL",
+        description: "",
+        date: "(Auto-Self from 2008 - Certified in Process)",
+        icon: "ti-bar-chart",
+    },
+    {
+        title: "Platzi",
+        subtitle: "TypeScript | ReactJS | iOnic5",
+        description: "",
+        date: "(Actually)",
         icon: "ti-ruler-alt-2",
     }
 ];
 const experience = [
     {
-        title: "UI/UX Designer",
-        subtitle: "Google INC | New York",
-        description: "Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo.",
+        title: "Fullstack Developer",
+        subtitle: "SUMR | Bogotá",
+        description: "",
         date: "(2016-2018)",
         icon: "ti-pencil-alt",
     },
     {
-        title: "Front-End Developer",
-        subtitle: "Amazon INC | New York",
-        description: "Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo.",
+        title: "Fullstack Developer",
+        subtitle: "FONTUR - Cotelco | Bogotá",
+        description: "",
         date: "(2016-2018)",
-        icon: "ti-heart",
+        icon: "ti-location-arrow",
     },
     {
-        title: "Back-End Developer",
-        subtitle: "Facebook INC | New York",
-        description: "Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo.",
-        date: "(2016-2018)",
-        icon: "ti-paint-bucket",
+        title: "Fullstack Developer",
+        subtitle: "Externado University | Bogotá",
+        description: "",
+        date: "(2007-Actually)",
+        icon: "ti-book",
     },
+    {
+        title: "Fullstack Developer",
+        subtitle: "Rosario University | Bogotá",
+        description: "",
+        date: "(2013-2018)",
+        icon: "ti-book",
+    },
+    {
+        title: "E-Learning Developer",
+        subtitle: "World Food Programme | Bogotá",
+        description: "",
+        date: "(2011-2013)",
+        icon: "ti-world",
+    },
+    {
+        title: "E-Learning Developer",
+        subtitle: "FAO | Bogotá",
+        description: "",
+        date: "(2010-2013)",
+        icon: "ti-world",
+    }
 ];
 
 function Resume() {
@@ -135,7 +192,7 @@ function Resume() {
                 <Container className="mb-spacing">
                     <Row>
                         <Col md={6}>
-                            <div className="resume-row">
+                            <div className="resume-row education">
                                 <h4 className="resume-title">Education</h4>
                                 <ul>
                                     {education.map((item, index) => (
@@ -148,9 +205,9 @@ function Resume() {
                                                     <h5>{item.title}</h5>
                                                     <h6>{item.subtitle}</h6>
                                                 </div>
-                                                <div className="resume-body">
-                                                    <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo.</p>
-                                                </div>
+                                                {/*<div className="resume-body">
+                                                    <p></p>
+                                                </div>*/}
                                             </div>
                                         </li>
                                     ))}
@@ -158,7 +215,7 @@ function Resume() {
                             </div>
                         </Col>
                         <Col md={6}>
-                            <div className="resume-row">
+                            <div className="resume-row experience">
                                 <h4 className="resume-title">Experience</h4>
                                 <ul>
                                     {experience.map((item, index) => (

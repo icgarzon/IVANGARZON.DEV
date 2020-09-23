@@ -55,3 +55,11 @@
         }
     }
 }
+
+
+@media (max-width: 500px) and (orientation: portrait) {  
+    .section-hero-1 {
+        background-position: bottom left 60%;
+        background-size: auto 80%;
+    }
+}

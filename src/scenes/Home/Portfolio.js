@@ -8,7 +8,7 @@ import Headline from "../../components/common/Headline";
 
 const portfolio = [
     {
-        name: "All Worls",
+        name: "Front-End",
         items: [
             {
                 id: 0,
@@ -93,11 +93,11 @@ const portfolio = [
         ],
     },
     {
-        name: "Web Design",
+        name: "Api Integrations",
         items: [
             {
                 id: 0,
-                title: "Crearive Design",
+                title: "VTEX",
                 link: "/portfolio-details",
                 subtitle: "Web Design",
                 src: "/assets/images/portfolio/1-1.jpg",
@@ -105,7 +105,7 @@ const portfolio = [
             },
             {
                 id: 1,
-                title: "Crearive Design",
+                title: "Twilio",
                 link: "/portfolio-details",
                 subtitle: "Web Design",
                 src: "/assets/images/portfolio/1-2.jpg",
@@ -113,7 +113,7 @@ const portfolio = [
             },
             {
                 id: 2,
-                title: "Crearive Design",
+                title: "Facebook",
                 link: "/portfolio-details",
                 subtitle: "Web Design",
                 src: "/assets/images/portfolio/1-3.jpg",
@@ -121,20 +121,60 @@ const portfolio = [
             },
             {
                 id: 3,
-                title: "Crearive Design",
+                title: "Whatsapp",
                 subtitle: "Web Design",
                 link: "/portfolio-details",
                 src: "/assets/images/portfolio/1-4.jpg",
                 thumbnail: "/assets/images/portfolio/1-4.jpg",
             },
+            {
+                id: 3,
+                title: "Gateway Payment",
+                subtitle: "Web Design",
+                link: "/portfolio-details",
+                src: "/assets/images/portfolio/1-4.jpg",
+                thumbnail: "/assets/images/portfolio/1-4.jpg",
+            },
+            {
+                id: 3,
+                title: "Google Auth",
+                subtitle: "Web Design",
+                link: "/portfolio-details",
+                src: "/assets/images/portfolio/1-4.jpg",
+                thumbnail: "/assets/images/portfolio/1-4.jpg",
+            },
+            {
+                id: 3,
+                title: "FullContact",
+                subtitle: "Web Design",
+                link: "/portfolio-details",
+                src: "/assets/images/portfolio/1-4.jpg",
+                thumbnail: "/assets/images/portfolio/1-4.jpg",
+            },
+            {
+                id: 3,
+                title: "Aws Rekognition",
+                subtitle: "Web Design",
+                link: "/portfolio-details",
+                src: "/assets/images/portfolio/1-4.jpg",
+                thumbnail: "/assets/images/portfolio/1-4.jpg",
+            },
+            {
+                id: 3,
+                title: "Aws Bulk SES",
+                subtitle: "Web Design",
+                link: "/portfolio-details",
+                src: "/assets/images/portfolio/1-4.jpg",
+                thumbnail: "/assets/images/portfolio/1-4.jpg",
+            }
         ],
     },
     {
-        name: "Mobile Apps",
+        name: "Mobile Development",
         items: [
             {
                 id: 4,
-                title: "Crearive Design",
+                title: "SUMR iOs",
                 subtitle: "Mobile Apps",
                 link: "/portfolio-details",
                 src: "/assets/images/portfolio/1-5.jpg",
@@ -142,24 +182,29 @@ const portfolio = [
             },
             {
                 id: 5,
-                title: "Crearive Design",
+                title: "SUMR Android",
                 subtitle: "Mobile Apps",
                 link: "/portfolio-details",
                 src: "/assets/images/portfolio/1-6.jpg",
                 thumbnail: "/assets/images/portfolio/1-6.jpg",
-            },
-            {
-                id: 6,
-                title: "Crearive Design",
-                subtitle: "Mobile Apps",
-                link: "/portfolio-details",
-                src: "/assets/images/portfolio/1-7.jpg",
-                thumbnail: "/assets/images/portfolio/1-7.jpg",
-            },
+            }
         ],
     },
     {
-        name: "Branding",
+        name: "NodeJs",
+        items: [
+            {
+                id: 7,
+                title: "Websocket",
+                subtitle: "Branding",
+                link: "/portfolio-details",
+                src: "/assets/images/portfolio/1-8.jpg",
+                thumbnail: "/assets/images/portfolio/1-8.jpg",
+            }
+        ],
+    },
+    {
+        name: "AWS IT",
         items: [
             {
                 id: 7,
@@ -186,7 +231,7 @@ const portfolio = [
                 thumbnail: "/assets/images/portfolio/1-10.jpg",
             },
         ],
-    },
+    }
 ];
 
 const images = [

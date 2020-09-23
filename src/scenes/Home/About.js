@@ -27,7 +27,7 @@ function About() {
                                     <p>I am software developer with more than 10 years of experience and knowledgment of different languages ​​and programming tools that i was getting on the releases of different business models. <strong>Some of my skills are:</strong></p>
                                 </header>
                                 <Row className="pt-30">
-                                    <Col lg={6} xs={6} sm={12} md={6}>
+                                    <Col lg={6} xs={12} sm={12} md={6}>
                                         <Col xs={12} sm={12} md={12}>
                                             <div className="el-card-icon">
                                                 <div className="el-icon">

@@ -590,3 +590,9 @@
     z-index: 1;
     position: absolute;
 }
+
+@media (max-width: 600px) {
+    .el-particles {
+        display:none;
+    }
+}

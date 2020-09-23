@@ -7,9 +7,7 @@ import Intro from "./Intro";
 import Header from "./Header";
 import Resume from "./Resume";
 import Service from "./Service";
-import Contact from "./Contact";
 import Portfolio from "./Portfolio";
-import Testimonial from "./Testimonial";
 import BlogSinglePost from "./BlogSinglePost";
 // Components
 import Helmet from "../../components/common/Helmet";
@@ -32,7 +30,7 @@ const routes = [
     {
         path: "service",
         component: <Service />,
-    },
+    }/*,
     {
         path: "portfolio",
         component: <Portfolio />,
@@ -44,15 +42,7 @@ const routes = [
     {
         path: "blog/single-post",
         component: <BlogSinglePost />,
-    },
-    {
-        path: "testimonial",
-        component: <Testimonial />,
-    },
-    {
-        path: "contact",
-        component: <Contact />,
-    },
+    }*/
 ];
 
 function Home() {
@@ -67,7 +57,7 @@ function Home() {
 
     return (
         <div>
-            <Helmet title="Ivan Camilo Garzon | Developer" />
+            <Helmet title="Ivan Camilo Garzon" />
             <Header />
             <Switch>
                 <Route path={path} exact>
