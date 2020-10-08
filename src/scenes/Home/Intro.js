@@ -31,10 +31,10 @@ function Intro() {
                 <Container>
                     <div className="el-heading">
                         <p className="el-icon">
-                            <span className="el-icon-title">I'm Ivan Garzón.</span>
+                            <span className="el-icon-title">I am Ivan Garzón.</span>
                         </p>
                         <h1>
-                            I'm a{" "}
+                            I am a{" "}
                             <TextLoop>
                                 <span>Software Developer</span>
                                 <span>JS Evangelizer</span>
