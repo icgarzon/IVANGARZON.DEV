@@ -7,8 +7,8 @@ import Intro from "./Intro";
 import Header from "./Header";
 import Resume from "./Resume";
 import Service from "./Service";
-import Portfolio from "./Portfolio";
-import BlogSinglePost from "./BlogSinglePost";
+//import Portfolio from "./Portfolio";
+//import BlogSinglePost from "./BlogSinglePost";
 // Components
 import Helmet from "../../components/common/Helmet";
 import Switch from "../../components/common/Switch";
