@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Route, Redirect, useRouteMatch } from "react-router-dom";
 // Sections
-import Blog from "./Blog";
+//import Blog from "./Blog";
 import About from "./About";
 import Intro from "./Intro";
 import Header from "./Header";
