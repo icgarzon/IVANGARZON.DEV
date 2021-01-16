@@ -6,7 +6,7 @@ function PageHelmet(props) {
 
     return (
         <Helmet>
-            <title>{title} || Software Developer</title>
+            <title>{title} | Software Developer</title>
             {description && <meta name="description" content={description} />}
             {children}
         </Helmet>

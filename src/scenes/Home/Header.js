@@ -16,13 +16,17 @@ const links = [
         path: "resume",
     },
     {
+        title: "Skills",
+        path: "skills",
+    },
+    {
         title: "Service",
         path: "service",
-    }/*,
+    },
     {
         title: "Portfolio",
         path: "portfolio",
-    },
+    }/*,
     {
         title: "Blog",
         path: "blog",

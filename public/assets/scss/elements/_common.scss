@@ -528,6 +528,7 @@
             background-color: $primary;
         }
     }
+
     &.el-icon-dark {
         .el-icon-title,
         .el-icon-subtitle {
@@ -550,6 +551,15 @@
         border-radius: 50%;
         background: $primary;
     }
+}
+
+
+.el-icon.gray {
+
+    &:before {
+        background-color: $gray-1;
+    }
+
 }
 
 /*------------------------------------

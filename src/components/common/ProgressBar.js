@@ -1,11 +1,11 @@
 import React from "react";
 
 function ProgressBar(props) {
-    const { label, min, max, percent } = props;
+    const { label, min, max, percent, classAdd } = props;
     return (
         <div className="el-progress">
             {label && (
-                <h5 className="el-icon">
+                <h5 className={"el-icon " + ( classAdd ? classAdd: '' ) }>
                     <span className="el-icon-label">{label}</span>
                 </h5>
             )}

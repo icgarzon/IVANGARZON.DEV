@@ -1,14 +1,16 @@
 import React, { useEffect } from "react";
 import { Route, Redirect, useRouteMatch } from "react-router-dom";
+
 // Sections
-//import Blog from "./Blog";
+
 import About from "./About";
 import Intro from "./Intro";
 import Header from "./Header";
 import Resume from "./Resume";
+import Skills from "./Skills";
 import Service from "./Service";
-//import Portfolio from "./Portfolio";
-//import BlogSinglePost from "./BlogSinglePost";
+import Portfolio from "./Portfolio";
+
 // Components
 import Helmet from "../../components/common/Helmet";
 import Switch from "../../components/common/Switch";
@@ -28,21 +30,21 @@ const routes = [
         component: <Resume />,
     },
     {
+        path: "skills",
+        component: <Skills />,
+    },
+    {
         path: "service",
         component: <Service />,
-    }/*,
+    },
     {
         path: "portfolio",
         component: <Portfolio />,
     },
     {
-        path: "blog",
-        component: <Blog />,
-    },
-    {
-        path: "blog/single-post",
-        component: <BlogSinglePost />,
-    }*/
+        path: "portfolio/:id",
+        component: <Portfolio />,
+    }
 ];
 
 function Home() {

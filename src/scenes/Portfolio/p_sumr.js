@@ -12,11 +12,11 @@ function BlogSinglePost() {
                     <div className="max-w-768 div-center">
                         <div className="post">
                             <div className="post-head">
-                                <div class="post-info">
+                                <div className="post-info">
                                     <GoBack />
-                                    <h1>The Best Sale Marketer Of The Next Year</h1>
+                                    <h1>SUMR - Business Software</h1>
                                     <p>
-                                        by <span className="author">Ivan Garzón</span> in <span className="category">Business</span> on <span class="date">May 1, 2020</span>.
+                                        by <span className="author">Ivan Garzón</span> in <span className="category">Business</span> on <span className="date">May 1, 2020</span>.
                                     </p>
                                 </div>
                             </div>
@@ -29,7 +29,7 @@ function BlogSinglePost() {
                                     <p>
                                         <b>Key Features:</b>
                                     </p>
-                                    <ul class="el-list-check">
+                                    <ul className="el-list-check">
                                         <li>
                                             <FaCheck className="icon" />
                                             Clean Code
@@ -51,7 +51,7 @@ function BlogSinglePost() {
                                     <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</p>
                                     <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
                                 </div>
-                                <div class="post-tags">
+                                <div className="post-tags">
                                     <span>Tags:</span>
                                     <ul>
                                         <li>
