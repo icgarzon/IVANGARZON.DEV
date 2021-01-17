@@ -6,27 +6,23 @@ const PortfolioList = [
         link: "/sumr",
         icon: "ti-crown",
     },
+
     {
-        title: "Universidad Externado",
-        image: "/assets/images/portfolio/uexternado.jpg",
-        date: "May 18th, 2019",
-        link: "/uexternado",
-        icon: "ti-book",
-    },
-    {
-        title: "UMECIT",
-        image: "/assets/images/portfolio/umecit.jpg",
+        title: "iOnic SUMR App",
+        image: "/assets/images/portfolio/wfp.jpg",
         date: "May 21h, 2019",
-        link: "/umecit",
-        icon: "ti-book",
+        link: "/wfp",
+        icon: "ti-comments-smiley",
     },
+
     {
-        title: "AG",
-        image: "/assets/images/portfolio/ag.jpg",
+        title: "SUMR Aws Migration",
+        image: "/assets/images/portfolio/wfp.jpg",
         date: "May 21h, 2019",
-        link: "/ambiente-gourmet",
-        icon: "ti-shopping-cart",
+        link: "/wfp",
+        icon: "ti-comments-smiley",
     },
+
     {
         title: "Ticketing",
         image: "/assets/images/portfolio/ticketing.jpg",
@@ -34,20 +30,7 @@ const PortfolioList = [
         link: "/ticketing",
         icon: "ti-comments",
     },
-    {
-        title: "Massive Space",
-        image: "/assets/images/portfolio/massive_space.jpg",
-        date: "May 21h, 2019",
-        link: "/massive_space",
-        icon: "ti-comment",
-    },
-    {
-        title: "Universidad del Rosario",
-        image: "/assets/images/portfolio/urosario.jpg",
-        date: "May 21h, 2019",
-        link: "/urosario",
-        icon: "ti-book",
-    },
+
     {
         title: "FONTUR",
         image: "/assets/images/portfolio/fontur.jpg",
@@ -55,6 +38,47 @@ const PortfolioList = [
         link: "/fontur",
         icon: "ti-world",
     },
+
+    {
+        title: "Universidad Externado",
+        image: "/assets/images/portfolio/uexternado.jpg",
+        date: "May 18th, 2019",
+        link: "/uexternado",
+        icon: "ti-book",
+    },
+
+    {
+        title: "UMECIT",
+        image: "/assets/images/portfolio/umecit.jpg",
+        date: "May 21h, 2019",
+        link: "/umecit",
+        icon: "ti-book",
+    },
+
+    {
+        title: "Universidad del Rosario",
+        image: "/assets/images/portfolio/urosario.jpg",
+        date: "May 21h, 2019",
+        link: "/urosario",
+        icon: "ti-book",
+    },
+
+    {
+        title: "Ambiente Gourmet",
+        image: "/assets/images/portfolio/ag.jpg",
+        date: "May 21h, 2019",
+        link: "/ambiente-gourmet",
+        icon: "ti-shopping-cart",
+    },
+
+    {
+        title: "Massive Space",
+        image: "/assets/images/portfolio/massive_space.jpg",
+        date: "May 21h, 2019",
+        link: "/massive_space",
+        icon: "ti-comment",
+    },
+
     {
         title: "SITYC",
         image: "/assets/images/portfolio/sityc.jpg",
@@ -62,8 +86,57 @@ const PortfolioList = [
         link: "/sityc",
         icon: "ti-bag",
     },
+
     {
         title: "WFP",
+        image: "/assets/images/portfolio/wfp.jpg",
+        date: "May 21h, 2019",
+        link: "/wfp",
+        icon: "ti-comments-smiley",
+    },
+
+    {
+        title: "SUMR API",
+        image: "/assets/images/portfolio/wfp.jpg",
+        date: "May 21h, 2019",
+        link: "/wfp",
+        icon: "ti-comments-smiley",
+    },
+
+    {
+        title: "Hotel Opera - Website",
+        image: "/assets/images/portfolio/wfp.jpg",
+        date: "May 21h, 2019",
+        link: "/wfp",
+        icon: "ti-comments-smiley",
+    },
+
+    {
+        title: "WFP",
+        image: "/assets/images/portfolio/wfp.jpg",
+        date: "May 21h, 2019",
+        link: "/wfp",
+        icon: "ti-comments-smiley",
+    },
+
+    {
+        title: "Magazine Platform",
+        image: "/assets/images/portfolio/wfp.jpg",
+        date: "May 21h, 2019",
+        link: "/wfp",
+        icon: "ti-comments-smiley",
+    },
+
+    {
+        title: "Twitter Events",
+        image: "/assets/images/portfolio/wfp.jpg",
+        date: "May 21h, 2019",
+        link: "/wfp",
+        icon: "ti-comments-smiley",
+    },
+
+    {
+        title: "SUMR Website",
         image: "/assets/images/portfolio/wfp.jpg",
         date: "May 21h, 2019",
         link: "/wfp",

@@ -30,7 +30,7 @@ function Portfolio() {
     }else{
 
         return (
-            <section className="section section-blog section-blog-1">
+            <section className="section section-project section-project-1">
                 <div className="display-spacing">
                     <Container className="container">
                         <Headline label="Portfolio" title="Let's See My Work" divider_1={true} position="center" />
@@ -43,7 +43,7 @@ function Portfolio() {
                                                 <div className="post-image" style={{ backgroundImage: `url(${item.image})` }}></div>
                                             </Link>
                                             <div className="post-content">
-                                                <div className="el-icon">
+                                                <div className="el-icon gray">
                                                     <span className={`el-icon-icon ${item.icon}`}></span>
                                                 </div>
                                                 <div className="post-data">
