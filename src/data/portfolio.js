@@ -9,7 +9,7 @@ const PortfolioList = [
 
     {
         title: "iOnic SUMR App",
-        image: "/assets/images/portfolio/wfp.jpg",
+        image: "/assets/images/portfolio/none.jpg",
         date: "May 21h, 2019",
         link: "/wfp",
         icon: "ti-comments-smiley",
@@ -17,7 +17,7 @@ const PortfolioList = [
 
     {
         title: "SUMR Aws Migration",
-        image: "/assets/images/portfolio/wfp.jpg",
+        image: "/assets/images/portfolio/none.jpg",
         date: "May 21h, 2019",
         link: "/wfp",
         icon: "ti-comments-smiley",
@@ -89,7 +89,7 @@ const PortfolioList = [
 
     {
         title: "WFP",
-        image: "/assets/images/portfolio/wfp.jpg",
+        image: "/assets/images/portfolio/none.jpg",
         date: "May 21h, 2019",
         link: "/wfp",
         icon: "ti-comments-smiley",
@@ -97,7 +97,7 @@ const PortfolioList = [
 
     {
         title: "SUMR API",
-        image: "/assets/images/portfolio/wfp.jpg",
+        image: "/assets/images/portfolio/none.jpg",
         date: "May 21h, 2019",
         link: "/wfp",
         icon: "ti-comments-smiley",
@@ -105,7 +105,7 @@ const PortfolioList = [
 
     {
         title: "Hotel Opera - Website",
-        image: "/assets/images/portfolio/wfp.jpg",
+        image: "/assets/images/portfolio/none.jpg",
         date: "May 21h, 2019",
         link: "/wfp",
         icon: "ti-comments-smiley",
@@ -113,7 +113,7 @@ const PortfolioList = [
 
     {
         title: "WFP",
-        image: "/assets/images/portfolio/wfp.jpg",
+        image: "/assets/images/portfolio/none.jpg",
         date: "May 21h, 2019",
         link: "/wfp",
         icon: "ti-comments-smiley",
@@ -121,7 +121,7 @@ const PortfolioList = [
 
     {
         title: "Magazine Platform",
-        image: "/assets/images/portfolio/wfp.jpg",
+        image: "/assets/images/portfolio/none.jpg",
         date: "May 21h, 2019",
         link: "/wfp",
         icon: "ti-comments-smiley",
@@ -129,7 +129,7 @@ const PortfolioList = [
 
     {
         title: "Twitter Events",
-        image: "/assets/images/portfolio/wfp.jpg",
+        image: "/assets/images/portfolio/none.jpg",
         date: "May 21h, 2019",
         link: "/wfp",
         icon: "ti-comments-smiley",
@@ -137,7 +137,7 @@ const PortfolioList = [
 
     {
         title: "SUMR Website",
-        image: "/assets/images/portfolio/wfp.jpg",
+        image: "/assets/images/portfolio/none.jpg",
         date: "May 21h, 2019",
         link: "/wfp",
         icon: "ti-comments-smiley",
