@@ -23,7 +23,11 @@ function Resume() {
                         {skills.map((item, index) => (
                             <Col key={index} sm={6} xl={4}>
                                 <div className="skills-item">
-                                    <ProgressBar label={item.title} percent={item.percent} classAdd="gray" />
+                                    <div className="el-progress">
+                                            <h5 className="el-icon gray">
+                                                <span className="el-icon-label">{item.title}</span>
+                                            </h5>
+                                    </div>
                                 </div>
                             </Col>
                         ))}
@@ -44,7 +48,11 @@ function Resume() {
                         {skills_learn.map((item, index) => (
                             <Col key={index} sm={6} xl={4}>
                                 <div className="skills-item">
-                                    <ProgressBar label={item.title} percent={item.percent} classAdd="gray" />
+                                    <div className="el-progress">
+                                            <h5 className="el-icon gray">
+                                                <span className="el-icon-label">{item.title}</span>
+                                            </h5>
+                                    </div>
                                 </div>
                             </Col>
                         ))}

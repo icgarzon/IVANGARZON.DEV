@@ -28,6 +28,11 @@
 }
 
 @media (max-width: 768px) {
+
+    .el-heading {
+        max-width: 75%;
+    }
+
     .section-hero-2 {
         background-position: center left;
         .el-heading {

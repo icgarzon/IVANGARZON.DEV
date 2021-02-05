@@ -103,6 +103,17 @@
             padding-top: 20px;
         }
     }
+
+    .el-progress{
+        
+        text-align: center;
+
+        .el-icon{
+            width:auto;
+            display: inline-block;
+        }
+
+    }
     
 }
 
@@ -113,5 +124,9 @@
     }
     .resume-body{
         display:none;
+    }
+
+    .el-progress{
+        margin-bottom: 20px;
     }
 }
