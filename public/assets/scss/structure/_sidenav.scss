@@ -25,12 +25,12 @@
         max-width: 75%;
         position: fixed;
         overflow: hidden;
-        background-color: $primary;
+        background-color: $primary-2;
         transition: all 0.6s;
         .logo {
             top: 30px;
             left: 30px;
-            color: $base-1;
+            color: $base-0;
             font-size: 24px;
             font-weight: 700;
             line-height: 1;
@@ -57,7 +57,7 @@
                 height: 2px;
                 content: "";
                 position: absolute;
-                background-color: $base-1;
+                background-color: $base-0;
                 transform: translate(-50%, -50%) rotate(45deg);
             }
             &:after {
@@ -67,7 +67,7 @@
                 height: 2px;
                 content: "";
                 position: absolute;
-                background-color: $base-1;
+                background-color: $base-0;
                 transform: translate(-50%, -50%) rotate(-45deg);
             }
         }
@@ -107,7 +107,7 @@
                 content: "";
                 position: absolute;
                 border-radius: 50%;
-                border: 1px solid $base-1;
+                border: 3px solid $primary;
             }
             &:hover {
                 a:not(.active) {
@@ -123,7 +123,7 @@
                 }
             }
             .active {
-                color: $base-1;
+                color: $primary;
                 opacity: 1;
 
                 span {

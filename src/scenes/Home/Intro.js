@@ -36,9 +36,14 @@ function Intro() {
                         <h1>
                             I am a{" "}
                             <TextLoop>
-                                <span>Software Developer</span>
-                                <span>JS Evangelizer</span>
-                                <span>ReactJS Student</span>
+                                <span>Software Dev</span>
+                                <span>JavaScript Dev</span>
+                                <span>ReactJS Dev</span>
+                                <span>React Native Dev</span>
+                                <span>NodeJS Dev</span>
+                                <span>ElectronJS Dev</span>
+                                <span>Ionic Dev</span>
+                                <span>PHP Dev</span>
                             </TextLoop>
                             <br />
                             <div className="mycity">Bogotá - Colombia</div>
