@@ -22,9 +22,16 @@ const experience = [
     },
     {
         title: "SUMR 🇨🇴",
-        subtitle: "",
+        subtitle: "CEO - Founder",
         description: "",
         date: "(2016-2018)",
+        icon: "ti-pencil-alt",
+    },
+    {
+        title: "Massive Space 🇨🇴",
+        subtitle: "CTO - Cofounder",
+        description: "",
+        date: "(2018-2021)",
         icon: "ti-pencil-alt",
     },
     {
