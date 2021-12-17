@@ -61,6 +61,13 @@ const education = [
         description: "",
         date: "(Actually)",
         icon: "ti-ruler-alt-2",
+    },
+    {
+        title: "Udemy",
+        subtitle: "React Native",
+        description: "",
+        date: "(Actually)",
+        icon: "ti-ruler-alt-2",
     }
 ];
 
