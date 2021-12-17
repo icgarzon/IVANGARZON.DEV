@@ -58,9 +58,12 @@ function Resume() {
                                                         {item.subtitle} <small>{item.date}</small>
                                                     </h6>
                                                 </div>
-                                                <div className="resume-body">
-                                                    <p>{item.description}</p>
-                                                </div>
+                                                { item.description ? 
+                                                    <div className="resume-body">
+                                                        <p>{item.description}</p>
+                                                    </div>
+                                                    : ''
+                                                }
                                             </div>
                                         </li>
                                     ))}
