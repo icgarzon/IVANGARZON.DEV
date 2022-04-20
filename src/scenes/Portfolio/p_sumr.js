@@ -16,7 +16,7 @@ function BlogSinglePost() {
                                     <GoBack />
                                     <h1>SUMR - Business Software</h1>
                                     <p>
-                                        by <span className="author">Ivan Garzón</span> in <span className="category">Business</span> on <span className="date">May 1, 2020</span>.
+                                        by <span className="author">Ivan Carron</span> in <span className="category">Business</span> on <span className="date">May 1, 2020</span>.
                                     </p>
                                 </div>
                             </div>

@@ -21,7 +21,7 @@ function About() {
                                         <span className="el-icon-title">ABOUT ME</span>
                                     </h2>
                                     <h3>
-                                        <span>Hello, I am Ivan Garzón.</span>
+                                        <span>Hello, I am Ivan Carron.</span>
                                     </h3>
                                     <div className="divider divider-1"></div>
                                     <p>I am a software developer with more than 10 years of experience and ample knowledgment of different languages ​​and programming tools that i acquired on the releases of different business models. <strong>Some of my skills are:</strong></p>

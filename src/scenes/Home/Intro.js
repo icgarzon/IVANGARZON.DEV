@@ -31,7 +31,7 @@ function Intro() {
                 <Container>
                     <div className="el-heading">
                         <p className="el-icon">
-                            <span className="el-icon-title">I am Ivan Garzón.</span>
+                            <span className="el-icon-title">I am Ivan Carron.</span>
                         </p>
                         <h1>
                             I am a{" "}
