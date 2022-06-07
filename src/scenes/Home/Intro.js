@@ -39,7 +39,6 @@ function Intro() {
                                 <span>Software Dev</span>
                                 <span>JavaScript Dev</span>
                                 <span>ReactJS Dev</span>
-                                <span>React Native Dev</span>
                                 <span>NodeJS Dev</span>
                                 <span>ElectronJS Dev</span>
                                 <span>Ionic Dev</span>
