@@ -46,7 +46,7 @@ function Intro() {
                                 <span>PHP Dev</span>
                             </TextLoop>
                             <br />
-                            <div className="mycity">Bogotá - Colombia</div>
+                            <div className="mycity">Brisbane - Australia</div>
                         </h1>
                         {/*<button className="button button-lg button-primary">
                             <span className="wave"></span>
