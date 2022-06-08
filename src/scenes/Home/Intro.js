@@ -34,15 +34,15 @@ function Intro() {
                             <span className="el-icon-title">I am Ivan Carron.</span>
                         </p>
                         <h1>
-                            I am a{" "}
+                            I am {" "}
                             <TextLoop>
-                                <span>Software Dev</span>
-                                <span>JavaScript Dev</span>
-                                <span>ReactJS Dev</span>
-                                <span>NodeJS Dev</span>
-                                <span>ElectronJS Dev</span>
-                                <span>Ionic Dev</span>
-                                <span>PHP Dev</span>
+                                <span>a Software Dev</span>
+                                <span>a JavaScript Dev</span>
+                                <span>a ReactJS Dev</span>
+                                <span>a NodeJS Dev</span>
+                                <span>an ElectronJS Dev</span>
+                                <span>an Ionic Dev</span>
+                                <span>a PHP Dev</span>
                             </TextLoop>
                             <br />
                             <div className="mycity">Brisbane - Australia</div>
