@@ -13,6 +13,10 @@ export const skills = [
         percent: 90,
     },
     {
+        title: "NestJs",
+        percent: 70,
+    },
+    {
         title: "iOnic",
         percent: 60,
     },
