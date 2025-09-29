@@ -20,6 +20,7 @@ function Intro() {
                                 <span>a NodeJS Dev</span>
                                 <span>an ElectronJS Dev</span>
                                 <span>an NestJs Dev</span>
+                                <span>an Angular Dev</span>
                             </TextLoop>
                             <br />
                             <div className="mycity">Brisbane - Australia</div>
