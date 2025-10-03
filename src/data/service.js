@@ -61,6 +61,70 @@ const service = [
         subtitle: "Setup of Worflows with BuddyWorks for build and deploy applications in different environment (Dev,QA,Production) using SFTP, Lambda Deploy, SSH, Bash Scripts, S3 upload, Image Optimizations, CloudFront Invalidations. All this connected to Git and with automated flows for each branch or event.",
         link: "/service-details",
         icon: "ti-rocket"
+    },
+    // New services aligned with current stack
+    {
+        title: "Identity & Access (Keycloak)",
+        mode: "Platform",
+        subtitle: "Customization of themes, login/registration flows, custom providers (SPI), events, and admin workflows. Integration with web/mobile apps and APIs.",
+        link: "/service-details",
+        icon: "ti-id-badge"
+    },
+    {
+        title: "Kubernetes & GitOps",
+        mode: "DevOps",
+        subtitle: "Application packaging and deployment with Helm; GitOps pipelines using Flux; environment promotion, secrets handling, and observability wiring.",
+        link: "/service-details",
+        icon: "ti-control-shuffle"
+    },
+    {
+        title: "Infra as Code (Pulumi/Terraform)",
+        mode: "DevOps",
+        subtitle: "Provision AWS infrastructure (S3, CloudFront, Route53, EC2/EKS/ECS, RDS, WAF) with TypeScript-based Pulumi or Terraform modules and CI integration.",
+        link: "/service-details",
+        icon: "ti-settings"
+    },
+    {
+        title: "Observability (Datadog)",
+        mode: "DevOps",
+        subtitle: "Full-stack visibility: APM, logs, RUM dashboards, alerting, SLOs, and runbooks to monitor UI and backend services end-to-end.",
+        link: "/service-details",
+        icon: "ti-pulse"
+    },
+    {
+        title: "AI & Document Processing",
+        mode: "Back-End",
+        subtitle: "Pipelines with AWS Textract and LLMs (e.g., OpenAI-style APIs) to extract, enrich, and route data from PDFs and documents.",
+        link: "/service-details",
+        icon: "ti-thought"
+    },
+    {
+        title: "Messaging & CRM Tooling",
+        mode: "Front-Back-End",
+        subtitle: "Templates and automation for Braze/Sendgrid; Liquid.js tooling; internal dev tools and VSCode extensions for campaign workflows.",
+        link: "/service-details",
+        icon: "ti-email"
+    },
+    {
+        title: "Angular UI (Tailwind/PrimeNG)",
+        mode: "Front-End",
+        subtitle: "Design and build Angular 16–20 applications using TailwindCSS and PrimeNG components, with Cypress for E2E testing.",
+        link: "/service-details",
+        icon: "ti-layout"
+    },
+    {
+        title: "APIs with NestJS/Node",
+        mode: "Back-End",
+        subtitle: "CQRS, microservices, BFFs, OpenAPI-first design, authentication/authorization (JWT/OAuth), and performance-tuned data access.",
+        link: "/service-details",
+        icon: "ti-server"
+    },
+    {
+        title: "Desktop & Mobile Apps",
+        mode: "Frontend",
+        subtitle: "Electron apps for macOS/Windows with auto-updates and installers. Ionic mobile apps with Capacitor and push notifications.",
+        link: "/service-details",
+        icon: "ti-mobile"
     }
 ];
 

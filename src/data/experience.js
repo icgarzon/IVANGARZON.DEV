@@ -2,7 +2,7 @@ const experience = [
     {
         title: "FSCO - Fresh Supply Co.",
         subtitle: "Full Stack Developer",
-        description: "Developed Angular 16–19 UIs, NestJS microservices, NX monorepo; AWS (CF/S3/Route53), Electron/Vite apps, Cypress; Datadog dashboards; Keycloak customization; GitLab CI and Pulumi infra.",
+        description: "Developed Angular 16–20 UIs, NestJS microservices, NX monorepo; AWS (CF/S3/Route53), Electron/Vite apps, Cypress; Datadog dashboards; Keycloak customization; GitLab CI and Pulumi infra.",
         date: "(Aug 2022 – Present)",
         icon: "ti-rocket",
     },

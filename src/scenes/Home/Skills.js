@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-grid-system";
 // Components
 //import ProgressBar from "../../components/common/ProgressBar";
-import { skills, skills_learn } from '../../data/skills';
+import skillsUnified from '../../data/skillsUnified';
 
 function Resume() {
     return (
@@ -20,7 +20,9 @@ function Resume() {
                 </header>
                 <Container>
                     <Row>
-                        {skills.map((item, index) => (
+                        {skillsUnified
+                            .filter(s => s.status === 'proficient')
+                            .map((item, index) => (
                             <Col key={index} sm={6} xl={4}>
                                 <div className="skills-item">
                                     <div className="el-progress">
@@ -45,7 +47,9 @@ function Resume() {
                 </header>
                 <Container>
                     <Row>
-                        {skills_learn.map((item, index) => (
+                        {skillsUnified
+                            .filter(s => s.status === 'learning')
+                            .map((item, index) => (
                             <Col key={index} sm={6} xl={4}>
                                 <div className="skills-item">
                                     <div className="el-progress">

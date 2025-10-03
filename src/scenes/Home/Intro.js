@@ -14,13 +14,16 @@ function Intro() {
                         <h1>
                             I am {" "}
                             <TextLoop>
+                                <span>a Full Stack Dev</span>
                                 <span>a Software Dev</span>
                                 <span>a JavaScript Dev</span>
+                                <span>a TypeScript Dev</span>
                                 <span>a ReactJS Dev</span>
                                 <span>a NodeJS Dev</span>
                                 <span>an ElectronJS Dev</span>
                                 <span>an NestJs Dev</span>
-                                <span>an Angular Dev</span>
+                                <span>an PHP Dev</span>
+                                <span>an Angular(16-20) Dev</span>
                             </TextLoop>
                             <br />
                             <div className="mycity">Brisbane - Australia</div>
